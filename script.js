@@ -16,48 +16,50 @@ function calcArea() {
 
 function CalculateArea(){
         var radius =document.form1.txtRadius.value;
-        document.write("The area of the circle is " + (radius * radius * Math.PI) + "</p>");
+        document.write("The area of the circle is " + (radius * radius * Math.PI) + " .");
        
     }
 
 	//96 pixels is appx 1 inch
+	
+	//Instead of using else if, try what went over in class - see notes
 	
 if (radius === 1) {
 //If input is 1 return image mercury
 picture = (image info here);
 }
 else if (radius = 2) {
-//If input in range of ??? return image  mars
+//If input is 2 return image  mars
 picture = (image info here);
 }
-//If input in range of ???? return image venus
+
 else if (radius = 3) {
-//If input in range of ??? return image  mars
+//If input is 3 return image  venus
 picture = (image info here);
 }
 //If input in range of ???? return image earth
 else if (radius = 4) {
-//If input in range of ??? return image  mars
+
 picture = (image info here);
 }
 //If input in range of ???? return image neptune
 else if (radius = 5) {
-//If input in range of ??? return image  mars
+
 picture = (image info here);
 }
 //If input in range of ???? return image uranus
 else if (radius = 6) {
-//If input in range of ??? return image  mars
+
 picture = (image info here);
 }
 //If input in range of ???? return image saturn
 else if (radius = 7) {
-//If input in range of ??? return image  mars
+
 picture = (image info here);
 }
-//If input in range of ???? return image 
+//If input in range of ???? return image jupiter
 else {
-//If input in range of ??? return image  mars
+
 picture = (image info here);
 }
 
